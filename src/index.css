@@ -2,19 +2,50 @@ body{
     margin: 0;
     padding: 0;
 }
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+
 .main.open{
-    left: 200px;
+    left: 80vw;
+    transform: scale(0.9);
 }
 .main{
-    background-color: orangered;
+    background: radial-gradient(#3c3c3c, #212121);
     height: 100vh;
     width: 100%;
     position: relative;
     left: 0;
-    transition: all 0.5 ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 .menu{
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
+    background: radial-gradient(#ababab, #868686);
+}
+#menubutton{
+    border-radius: 5px;
+    margin: 15px;
+    background-color: #C62828; /* Not Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    box-shadow: 0 0.5em 0.5em -0.4em rgba(0,0,0,0.15); 
+}
+#menubutton:hover {
+    background-color: #B71C1C;
+    transform: translateY(-0.25em);   
+    box-shadow: 0 0.8em 0.5em -0.4em rgba(0,0,0,0.15);
 }
