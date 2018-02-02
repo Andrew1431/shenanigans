@@ -73,7 +73,7 @@ button {
     margin: 15px;
     background-color: #C62828; /* Not Green */
     border: none;
-    color: white;
+    color: rgba(255,255,255,0.8);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -92,8 +92,7 @@ button {
     box-shadow: 0 0.8em 0.5em -0.4em rgba(0,0,0,0.15);
 }
 .maintext {
-    color: #C62828;
-    font-size: 78px;
     text-shadow: 0px 1px 1px #4d4d4d;
-    
+	color: #222;
+	font-size: 80px;
 }
