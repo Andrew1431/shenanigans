@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main.open{
+    left: 200px;
+}
+.main{
+    background-color: orangered;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    left: 0;
+    transition: all 0.5 ease-in-out;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
